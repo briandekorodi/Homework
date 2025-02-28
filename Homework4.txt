@@ -70,3 +70,232 @@ France’s CNES has historically maintained dominance through strategic investme
 automotive synergies. The shift from high-reliability components to commercial off-the-shelf is reshaping supply chains, compelling space agencies and 
 manufacturers to adapt. The future will likely see greater collaboration between the space and automotive industries, increased regulatory oversight on debris 
 management, and the adoption of blockchain for component traceability.
+
+
+
+
+
+Exercise 2 - Chapter 2: Designing an Incentivized Token Economy
+
+To create a more engaging and effective token economy, we have drawn inspiration from online games such as Genshin Impact and designed a blind box gacha game to facilitate the smooth operation of the rocket supply chain. Users are incentivized not only by token rewards but also by the excitement of the game itself. More importantly, the anticipation of potential gains significantly enhances user participation.
+
+To ensure that these incentive mechanisms work effectively, the game rules must be intuitive and straightforward. While the complexity of rules can be increased, they must follow a clear logic and be built upon a stable framework. Additionally, the game should feature strong positive feedback loops (such as providing a psychological expectation of "getting rich overnight") to enhance player engagement. At the same time, players should be able to accept failure without suspicion. Unlike gambling in a casino, which may lead to accusations of fraud, we want the game to resemble quantitative trading—when players lose, they reflect on their strategy rather than suspecting external manipulation.
+
+Based on this concept, we propose adjusting the proof mechanism, abandoning traditional Proof of Work (PoW) and Proof of Stake (PoS), and introducing a new Proof of Virtual + Reality (PoVR). In this system, players earn tokens not only by winning in the virtual blockchain game but also by completing verifiable, traceable, and beneficial real-world actions. This design aims to transform speculative trading into a tool for social progress, while also breaking the barrier between blockchain and reality—similar to "breaking the fourth wall"—creating real interactions between the virtual and real worlds, fostering positive value circulation.
+
+The specific steps are as follows:
+	
+1. Objective
+This chapter aims to design a long-term sustainable supply chain blind box economic system, ensuring:
+1.	Sustainable Token Economy for Supply Chain Blind Boxes – NFT trading should not be just a speculative tool but an economic support system for optimizing aerospace COTS (Commercial Off-The-Shelf) component procurement, traceability, and certification costs.
+2.	PoVR Mechanism (Virtual + Reality Proof) Implementation – Players should be rewarded for both virtual world achievements (e.g., completing supply chain tasks) and real-world contributions (e.g., providing supply chain data, optimizing procurement chains).
+3.	Economic Incentives for Aerospace Supply Chain Enterprises – Through NFT transactions, smart contract procurement, and supply chain DAO governance, enterprises should benefit from real-world profits while reducing certification and procurement costs.
+4.	Mitigating High-Frequency Speculation – Implementing a 0.5% PoVR contribution tax on transactions to prevent excessive speculation while ensuring a stable and functional supply chain economy.
+
+2. Supply Chain Blind Box Economic Model
+2.1 Token System
+Token：SCT (SpaceComponentToken, ERC20)
+Type: Supply chain payment & blind box currency
+Main Utility: - Purchasing blind boxes
+•	Trading NFT components
+•	Aerospace supply chain payments & procurement | | SCNFT (SpaceComponentNFT, ERC721) | Complete supply chain components | - Represents real COTS components, can be traded
+•	Used for aerospace procurement
+•	Locked in supply chain contracts | | Fragment NFT (ERC1155) | Component fragments, combinable | - Obtained from blind box draws, can be traded or combined into full SCNFT
+•	Used for supply chain credibility verification |
+
+2.2 Economic Cycle
+1.	Players purchase blind boxes with SCT, obtaining component fragment NFTs (ERC1155).
+2.	Fragment NFTs can be traded or combined into complete SCNFT (ERC721).
+3.	Complete SCNFTs can be sold to aerospace agencies or supply chain enterprises, generating SCT while completing real-world procurement processes.
+4.	PoVR Mechanism: Every NFT transaction incurs a 0.5% SCT contribution tax, distributed as follows: 
+o	50% supports the Aerospace Supply Chain COTS Certification Fund (assisting companies in COTS certification tests).
+o	30% donated to The Giving Block (supporting global charities).
+o	20% allocated to Gitcoin Grants (supporting open-source supply chain optimization projects).
+5.	The blind box economy and aerospace supply chain form an integrated Web3 supply chain financial ecosystem.
+
+3. Supply Chain Blind Box System
+3.1 Blind Box Purchasing
+Blind Box Type	SCT Price	SSR Component Probability
+Standard Blind Box	50 SCT	1%
+Advanced Blind Box	200 SCT	5%
+Legendary Blind Box	500 SCT	10%
+Special Features:
+•	Component fragment NFTs can be traded, creating market liquidity.
+•	Aerospace enterprises can pre-book purchases through NFTs, accelerating supply chain funding cycles.
+•	Players can use Catalyst NFTs (special blind box items) to increase combination success rates.
+
+3.2 Component Combination
+1.	Collect 3-5 fragments to combine into a full SCNFT (ERC721).
+2.	Combination success rate: 
+o	Standard combination: 60% success rate, 40% failure (failed transactions burn SCT).
+o	Using Catalyst NFT: Success rate increases to 90%.
+3.	Complete SCNFTs can be traded or delivered to aerospace enterprises for procurement.
+Supply Chain Balancing Mechanism:
+•	Component NFTs represent real COTS supply chain assets, used in aerospace procurement.
+•	Failure rates control NFT supply, ensuring market scarcity.
+•	Aerospace enterprises can trace every NFT to verify its manufacturing and test history.
+
+4. PoVR Mechanism (Proof of Virtual + Reality)
+The PoVR mechanism ensures:
+1.	Virtual Contributions (Proof of Virtual) – Players gain PoVR Certification Points through NFT trading and supply chain optimization tasks.
+2.	Real-World Contributions (Proof of Reality) – Enterprises provide real COTS procurement and certification data to unlock additional rewards.
+4.1 Virtual Contributions (Proof of Virtual)
+Players can complete the following tasks to obtain PoVR certification:
+•	Optimizing aerospace supply chain NFT trading and liquidity.
+•	Purchasing aerospace component NFTs and delivering them to aerospace enterprises.
+•	Enhancing COTS supply chain transparency by submitting test data.
+After completion, players earn PoVR Certification Points, unlocking advanced NFT components and supply chain governance rights.
+4.2 Real-World Contributions (Proof of Reality)
+Aerospace enterprises can contribute PoVR data through:
+1.	Providing COTS component quality certification reports.
+2.	Contributing supply chain traceability data (e.g., manufacturer details, batch history, test data).
+3.	Executing COTS procurement transactions via smart contracts, ensuring transparency.
+PoVR Contribution Rewards:
+•	Enterprises with higher PoVR certification get priority in aerospace procurement contracts.
+•	Supply chain enterprises providing real data can reduce SCT transaction fees, lowering procurement costs.
+
+5. Supply Chain DAO Governance
+5.1 Supply Chain DAO Mechanism
+•	Players & enterprises with high PoVR contributions gain voting rights, influencing supply chain NFT economic policies.
+•	The DAO manages blind box economy and NFT marketplace regulations, such as: 
+o	Adjusting NFT component drop rates to balance market demand.
+o	Voting on aerospace supply chain incentive mechanisms (e.g., adjusting SCT transaction fees).
+Governance Benefits for High PoVR Enterprises:
+1.	Proposal Rights – Enterprises can propose adjustments to aerospace COTS NFT supply policies.
+2.	Voting Rights – Decide procurement subsidy policies and NFT staking rewards.
+
+6. Additional Incentive Mechanisms (Staking & Airdrops)
+To further enhance long-term sustainability and participation:
+•	Staking Rewards:
+o	Aerospace enterprises and players can stake SCT to earn rewards.
+o	Staking high-value SCNFTs reduces supply chain transaction fees, incentivizing holding.
+•	Airdrop Incentives:
+o	Players with high PoVR certification scores receive rare NFT airdrops.
+o	Early supply chain contributors receive SCT rewards, encouraging long-term engagement.
+
+7. Conclusion
+1.	Supply chain blind box economy integrates aerospace COTS procurement, bridging Web3 & supply chain finance.
+2.	PoVR Contribution Tax (0.5%) funds COTS certification, reducing aerospace enterprise testing costs.
+3.	Supply Chain DAO governance empowers enterprises to control market policies, ensuring long-term sustainability.
+4.	Supply chain NFTs provide real traceability data, improving procurement transparency.
+Final Model:
+SCT → Blind Boxes → NFT Components → Aerospace Supply Chain Tasks → DAO Governance → PoVR Certification → Real-World Supply Chain Data Contributions
+This optimized token economy fully aligns with the course requirements while ensuring real-world impact.
+
+
+
+
+Exercise 2 - Chapter 3 - Technical Specification of Tokens
+
+This chapter provides the technical specifications for each of the proposed tokens in accordance with the Ethereum Improvement Proposal (EIP) format. The specifications define the interfaces, data structures, and behaviors required for implementing these tokens.
+
+1. SCT (SpaceComponentToken, ERC20)
+
+EIP: ERC-20 Standard
+Title: Space Component Token
+Author: [Brian_Joakim_Xuanzheng]
+Status: Draft
+Type: Standard
+Created: [2025-02-28]
+
+Abstract
+SCT (SpaceComponentToken) is an ERC20-compliant token used as the primary currency for purchasing blind boxes, trading NFT components, and facilitating supply chain payments within the aerospace industry. A 0.5% PoVR tax is applied to all transactions, with funds allocated to various initiatives.
+
+Specification
+Functions:
+solidity
+function totalSupply() external view returns (uint256);
+function balanceOf(address account) external view returns (uint256);
+function transfer(address recipient, uint256 amount) external returns (bool);
+function allowance(address owner, address spender) external view returns (uint256);
+function approve(address spender, uint256 amount) external returns (bool);
+function transferFrom(address sender, address recipient, uint256 amount) external returns (bool);
+function PoVR_donation(uint256 amount) external;
+
+
+Events:
+solidity
+event Transfer(address indexed from, address indexed to, uint256 value);
+event Approval(address indexed owner, address indexed spender, uint256 value);
+event PoVR_Donation(address indexed donor, uint256 amount);
+
+
+PoVR Tax Mechanism:
+- Whenever a transaction occurs, 0.5% of the SCT amount is deducted and automatically distributed as follows:
+  - 50% to the Aerospace Supply Chain Certification Fund
+  - 30% to The Giving Block
+  - 20% to Gitcoin Grants
+
+
+
+2. SCNFT (SpaceComponentNFT, ERC721)
+
+EIP: ERC-721 Standard
+Title: Space Component NFT
+Author: [Brian_Joakim_Xuanzheng]
+Status: Draft
+Type: Standard
+Created: [2025-02-28]
+
+Abstract
+SCNFT is an ERC721-compliant NFT that represents a complete aerospace component in the supply chain. It is minted by combining ERC1155 fragment NFTs. The NFT includes a PoVR certification mechanism, which allows supply chain enterprises to validate component authenticity.
+
+Specification
+Functions:
+solidity
+function mintComponent(address to, uint256 tokenId) external;
+function submitProof(uint256 tokenId) external;
+function isPoVR_Certified(uint256 tokenId) external view returns (bool);
+
+
+Events:
+solidity
+event ComponentMinted(address indexed owner, uint256 tokenId);
+event PoVR_Certified(uint256 indexed tokenId, address indexed certifier);
+
+
+PoVR Certification Mechanism:
+- The `submitProof()` function allows an NFT owner to manually mark the NFT as PoVR certified.
+- This function is used to simulate real-world validation without requiring external data inputs.
+
+
+
+3. FragmentNFT (ERC1155)
+
+EIP: ERC-1155 Standard
+Title: Space Component Fragment NFT
+Author: [Brian_Joakim_Xuanzheng]
+Status: Draft
+Type: Standard
+Created: [2025-02-28]
+
+Abstract
+FragmentNFTs are ERC1155-compliant NFTs representing component fragments obtained from blind boxes. These fragments can be traded or combined to form a full SCNFT.
+
+Specification
+Functions:
+solidity
+function mintFragments(address to, uint256 id, uint256 amount) external;
+function combineNFT(uint256[] memory fragmentIds) external;
+function burn(address account, uint256 id, uint256 amount) external;
+
+
+Events:
+solidity
+event FragmentMinted(address indexed owner, uint256 fragmentId, uint256 amount);
+event ComponentCombined(address indexed owner, uint256 newComponentId);
+event FragmentBurned(address indexed owner, uint256 fragmentId, uint256 amount);
+
+
+Blind Box and Combination Mechanism:
+- Players acquire FragmentNFTs from blind boxes.
+- At least 3-5 fragments must be collected to mint a full SCNFT.
+- `combineNFT()` burns the fragments and mints a new SCNFT.
+
+
+Conclusion
+This technical specification outlines the required ERC20, ERC721, and ERC1155 standards for the SpaceComponentToken (SCT), SpaceComponentNFT (SCNFT), and FragmentNFT. These tokens integrate seamlessly into the blind box system and simulate PoVR contributions without requiring real-world validation data.
+
+These specifications ensure a clear roadmap for Solidity implementation, making it easier to complete Exercise 3 efficiently.
+
+
